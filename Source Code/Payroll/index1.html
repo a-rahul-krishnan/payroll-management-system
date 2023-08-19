@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $("#log").click(function(){
+               var u_name = $("#uname").val();
+               var pass = $("#pass").val();
+             if(pass=="123456" && u_name == "admin@gmail.com"){
+                 alert("Valid User!");
+                 window.location.href='http://localhost/payroll/home.php';
+             }else{
+               alert("Invalid User Name/Password !!!");
+               window.location.href='http://localhost/payroll/index1.html';
+             }
+           });
+        })
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <body style="background-color:pearl"></body>
+<center>  
+    <h1><b><u>DKRS - PAYROLL MANAGEMENT</u></b></h1><hr>
+    <h3><b><i>[ADMIN] LOG-IN</i></b></h3>
+    <form method="post">
+    <img  align="middle" width="150" height="150"src="img/profile.png"><br>
+    <b>User Name:</b><input type="email"  name="uname"  placeholder="Enter User Name" id="uname"><br><br>
+    <b>Password:</b><input type="password"  name="password"  placeholder="Enter Password" id="pass"><br><br>
+    <button type="button" id="log">Log-in</button>
+    <hr>
+    </form>
+</center>
+</body>
+</html>
