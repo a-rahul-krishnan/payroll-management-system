@@ -4,4 +4,4 @@ Technologies Used:
 HTML,
 PHP,
 JQuery,
-Xampp Server(DataBase).
+Xampp Server(DataBase-SQL).
