@@ -1,0 +1,125 @@
+.nav{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.menu1{
+    margin-top: 10px;
+    display:inline;
+    float:right;
+}
+h1{
+    display:inline;
+}
+h2{
+    text-align:center;
+    margin-bottom: 10px;
+}
+#llog{
+    border: 2px solid lightgrey;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    }
+#Log{
+    font-family: Copperplate Gothic;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#logb{
+    margin-top:0px ;
+    margin-left:10px ;
+    display:inline;
+    float:right;
+    font-family: Copperplate Gothic;
+    background-color: grey;
+    font-weight: bold;
+    font-size: medium;
+}
+#logo{
+margin-right: 20px;
+}
+input{
+    font-family: Copperplate Gothic;
+}
+body {
+    font-family: Copperplate Gothic;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color:black;
+    color:white;
+    margin-top: auto;
+}
+#test{
+    display: inline;
+    width: 500px;
+}
+.menu{
+    top:0;
+    right:0;
+    width:200px;
+    position: fixed;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    font-family:Copperplate Gothic;
+}
+#testq{
+    margin-right:200px;
+}
+#con{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+#con a{
+padding: 6px;
+color: white;
+background-color: black;
+border: 2px solid white;
+margin-left: 8px;
+
+}
+#sec{
+background-color: lightgrey;
+color: black;
+}
+#sec a {
+    color:black;
+    padding-left: 10px;
+}
+#cont{
+    margin-top: 40px;
+}
+.menu h3{
+    margin-top: 30px;
+}
+#pg{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+
+.n_m{
+    font-family: Copperplate Gothic;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}

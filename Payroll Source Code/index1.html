@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           $("#Log").click(function(){
+               var u_name = $("#uname").val();
+               var pass = $("#pass").val();
+             if(pass=="123456" && u_name == "admin@gmail.com"){
+                 alert("Valid User!");
+                 window.location.href='http://localhost/payroll/home.php';
+             }else{
+               alert("Invalid User Name/Password !!!");
+               window.location.href='http://localhost/payroll/index1.html';
+             }
+           });
+        })
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    
+<center> 
+    <div class="nav">    <h1><b>RK - PAYROLL MANAGEMENT</b></h1></div> 
+    <h3><b><i>[ADMIN] LOG-IN</i></b></h3>
+    <div ID="llog">
+    <form method="post">
+        <table>
+        <tr>
+            <td><img width="150" height="150"src="img/profile_pic.png" id="logo"></td>
+            <td><b>User Name:  </b><input type="email"  name="uname"  placeholder="Enter User Name" id="uname"><br><br>
+                <b>Password:  </b><input type="password"  name="password"  placeholder="Enter Password" id="pass"><br><br>
+                <button type="button" id="Log">Log-in</button></td>
+        </tr>
+        </table>
+    </form></div>
+</center>
+<footer><p>RK | © 2023 , All Rights Reserved</p></footer>
+</body>
+</html>
